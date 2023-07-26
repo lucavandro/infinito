@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+
+header{
+    background-image: url(img/sfondo.jpg);
+    background-position-x: right;
+    background-color: #f3f2f7;
+    background-size: contain;
+    background-repeat: no-repeat;
+    aspect-ratio: 1.33 / 1;
+    display: flex;
+    padding: 25px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+
+h1{
+    font-size: 2.5em;
+}
+h2{
+    font-size: 1em;
+}
+
+main{
+    padding: 40px 0;
+}
+
+pre{
+    line-height: 2;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+footer{
+    padding: 40px;
+    text-align: center;
+    background-color: #eee;
+}
+
+@media (min-width:900px){
+    header{
+        height: 100vh;
+        width: 100%;
+    }
+
+    h1{
+        font-size: 4.5em;
+    }
+    h2{
+        font-size: 1.85em;
+    }
+    pre{
+        font-size: 1.5em;
+    }
+}
